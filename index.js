@@ -32,6 +32,7 @@ function verify(number) {
       playerNumber +
       " ) Félicitations vous avez trouvé le juste prix";
     instruction.classList.add("instruction", "fini");
+    input.disabled = true;
   }
 }
 
